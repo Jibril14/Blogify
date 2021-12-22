@@ -38,6 +38,11 @@ a:active {
  margin-top:50px;
  padding: 5px;
 }
+@media only screen and (max-width: 600px) {
+  .main{
+     width: 70%;
+  }
+}
 
 .bg-footercol{
   background-color: #000;
