@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+.searchBox{
+    position: relative;
+    height: 45px;
+    width: 50px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 60px;
+}
+
+
+.input{
+    height: 100%;
+width: 100%;
+border: none;
+outline: none;
+background: cadetblue;
+font-size: 18px;
+border-radius: 50px;
+padding:0 60px 20 0px;
+opacity: 1;
+transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.input:focus {
+    border: 3px solid rgb(224, 172, 172);
+  }
+
+.searchBtn{
+ 
+    top: 20%;
+    left:20px;
+    z-index: 1;
+    transition: translateY(-50%);
+    height: 40px;
+    width: 40px;
+    color: red;
+    background: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
+
+.searchBtn:active{
+right: 50px;
+height: 50px;
+width: 50px;
+color: yellow;
+background: yellowgreen;
+line-height: 50px;
+font-size: 20px;
+transform: translateY(-50%) rotate(360deg);
+}
+
+
+.cancelBtn{
+
+    position: relative;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+    color:yellow;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.cancelBtn .active{
+    right: -40px;
+    transform: translateY(-50) rotate3d(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

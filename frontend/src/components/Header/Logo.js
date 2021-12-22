@@ -1,13 +1,10 @@
 import React from 'react';
-//import burgerLogo from '../../assets/images/burger-logo.png';
-
+import {Link } from 'react-router-dom';
 import classes from './Logo.module.css';
-
 
 const logo = (props) =>(
 <div className={classes.Logo}>
-{/*  <img src = {burgerLogo}  alt=""/>  */}
-<h3>BIGBRO</h3>
+<Link to='/'><h3  style={{color:"cyan", textDecoration:"none" }}>Blogify</h3></Link>
 </div>
 );
 
