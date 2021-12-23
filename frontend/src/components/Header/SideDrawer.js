@@ -23,10 +23,10 @@ const sideDrawer = ( props ) => {
                 <div>
                     <nav>
                         <ul className={classes.NavigationItems}>
-                            <li link="/" className={classes2.NavigationListItem} ><a href="/">About</a>  </li>
-                            <li link="/category/" className={classes2.NavigationListItem}><a href="/">News</a></li>
+                            <Link to="/" style={{ color: "red",}} className={classes2.NavigationListItem}>About </Link>
+                            <Link to="/category/" style={{ color: "red",}} className={classes2.NavigationListItem}>News</Link>
   
-                            <li link="/contact" className={classes2.NavigationListItem}><a href="/">Contact</a></li>
+                            <Link to="/contact" style={{ color: "red",}} className={classes2.NavigationListItem}>Contact</Link>
    
                         </ul>
                     </nav>

@@ -44,8 +44,8 @@
                         </form>
                     </div> 
                     <div> <p style={{ color: "red", paddingTop: "20px", font: "inherit"}}>
-                           You Could Also Send Me An Email Instead:
-                           <a href="mailto:jibril41@yahoo.com?Subject=MyApp%20again" target="_top">Send Mail</a>
+                           Want To Send Me An Email Instead? 
+                           <a style={{ color: "red", fontWeight:"bold", margin:"2px"}} href="mailto:jibril41@yahoo.com?Subject=MyApp%20again" target="_top">Send Mail</a>
                            </p>
                     </div>
         </section>
