@@ -69,7 +69,7 @@ const Blog = () => {
 
             <div className="jumbotron p-4 p-md-5 text-white rounded bg-footercol jumbotron-fluid">
                 <div className=" px-0">
-                    <h1 className="display-4 font-weight-bold text-light">{featuredBlog.title}</h1>
+                    <h6 className="display-6 font-weight-bold text-light">{featuredBlog.title}</h6>
                     <p className="lead my-3">{featuredBlog.excerpt}</p>
                     <Link to={`/blog/${featuredBlog.slug}`}>  <button type="button"  className="btn btn-success"> Read More</button></Link>
                 </div>

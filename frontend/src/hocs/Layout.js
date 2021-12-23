@@ -36,16 +36,16 @@ class Layout extends Component {
      return(
       
      <div>
-     <Toolbar toggle={this.ToggleHandler} open={this.searchBoxToggleHandler}/>
-     <SideDrawer open={this.state.showSideDrawer} closed={this.sideDrawerClosedHandler}/>     
-     
-     <main className="main">
-      <Container>
-      {this.props.children}
-      </Container>
-     </main>
+        <Toolbar toggle={this.ToggleHandler} open={this.searchBoxToggleHandler}/>
+        <SideDrawer open={this.state.showSideDrawer} closed={this.sideDrawerClosedHandler}/>     
+        
+        <main className="main">
+            <Container>
+              {this.props.children}
+            </Container>
+        </main>
 
-     <Footer/>
+        <Footer/>
       </div>
            
   )

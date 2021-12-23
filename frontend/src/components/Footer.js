@@ -10,7 +10,7 @@ return (
             <Col className="text-center py-3">
               Copyright &copy; BLOGIFY.
             </Col>
-            
+          
             <Col className="text-center py-3">
             All Rights Reserved.
             </Col>

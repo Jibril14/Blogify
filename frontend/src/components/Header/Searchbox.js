@@ -39,7 +39,7 @@ class searchbox extends Component{
             <div style={style} className={classes.searchBox} >
                  <div className={classes.searchBtn} >
                      <i   onClick={this.toggleSearchHandler} className="fas fa-search"
-                      style={{color:'blue', boxSizing:'border-box', margin: '0', padding: '0'}}></i>
+                      style={{color:'black', boxSizing:'border-box', margin: '0', padding: '0'}}></i>
                  </div>
                  {inputField}
              </div>
