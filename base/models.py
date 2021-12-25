@@ -23,7 +23,7 @@ class BlogPost(models.Model):
     title = models.CharField(max_length=50)
     slug = models.SlugField()
     category = models.CharField(max_length=50, choices=Categories.choices, default=Categories.WORLD)
-    thumbnail = models.ImageField(upload_to='photos/%Y/%m/%d')
+    thumbnail = models.CharField(max_length=600, null=True, blank=True)
     excerpt = models.CharField(max_length=150)
     month = models.CharField(max_length=3)
     day = models.CharField(max_length=2)
