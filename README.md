@@ -17,9 +17,9 @@ And Many more...
 <h3>Backend<h3>
  
  Django
- Django REST framework is a powerful and flexible toolkit for building Web APIs
-WhiteNoise to serve files efficiently from Django
-Django Sumernote
+ Django REST framework is a powerful and flexible toolkit for building Web APIs,
+WhiteNoise to serve files efficiently from Django,
+Django Sumernote,
 And Many more...
 
 
